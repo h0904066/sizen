@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
     <title>オーガニックレストランsizen</title>
     <link rel="icon" href="images/favi.ico">
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"> -->
+    
+    <!-- jsスライドショー -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/6-1-3.css"> -->
+    <!-- ここまで -->
+
 </head>
 <body>
 <header>
@@ -20,34 +27,42 @@
             </ul>
         </div>
     </div>
-    <div class="menu_img">
-        <img src="images/top.jpg" alt="top_img">
-    </div>
 </header>
+<div class="menu_img">
+    <div class="menu_img_item">
+        <!-- <img src="images/top.jpg" alt="top_img"> -->
+            <!-- jsスライドショー -->
+            <!-- <div id="slider"></div> -->
+            <!-- ここまで -->
+    </div>
+</div>
 <div class="today">
     <h2>calender</h2>
-    <img src="images\calender.png" alt="calender">
+    <img src="images/calender.png" alt="May">
+    <img src="images/calender6.png" alt="June">
 </div>
 <section class="about">
     <h2>about</h2>
     <div class="about_flexright">
-        <p>
-            20代の頃、仕事の関係で宮崎の多くの農家さんに出会う機会がありました。<br>
-            その中で、自然農法で農薬や化学肥料を使わずに作物を育てる農家さんの価値ある努力と情熱に触れました。
-            また、その価値が消費者に正しく伝わっていないことに気付き、そんな信念を持った農家さんたちの食材に
-            本当の価値をつけて消費者に届ける事が出来ないかと考えました。
-        </p>
+        <h3>20代の頃、仕事の関係で宮崎の多くの農家さんに出会う機会がきっかけでした。
+            <p>
+                その中で、自然農法で農薬や化学肥料を使わずに作物を育てる農家さんの価値ある努力と情熱に触れました。
+                また、その価値が消費者に正しく伝わっていないことに気付き、そんな信念を持った農家さんたちの食材に
+                本当の価値をつけて消費者に届ける事が出来ないかと考えました。
+            </p>
+        </h3>
         <p><img src="images/smart2-1.jpg" alt="about_img1"></p>
     </div>
     <div class="about_flexleft">
         <p><img src="images/smart2.jpg" alt="about_img2"></p>
-        <p>
-            そこで、宮崎の平和台公園でオーガニックレストラン「sizen」を開業することを決意しました。<br>
-            あまり知られていませんが、平和台公園は緑豊かな森の公園で、いつも鳥のさえずりの聞こえる自然豊かな素晴らしい場所です。<br>
-            そうして頭の中で色々考えていると、ふとひらめいたんです！<br>
-            この緑豊かな公園の中で、大好きな農家さんの本物の食事を楽しんでもらえるレストランを作ったらとても素敵！と。
-            これが、オーガニックレストランsizenのストーリーのはじまりです。
-        </p>
+        <h3>そこで、宮崎の平和台公園でオーガニックレストラン「sizen」を開業することを決意しました。
+            <p>
+                あまり知られていませんが、平和台公園は緑豊かな森の公園で、いつも鳥のさえずりの聞こえる自然豊かな素晴らしい場所です。<br>
+                そうして頭の中で色々考えていると、ふとひらめいたんです！<br>
+                この緑豊かな公園の中で、大好きな農家さんの本物の食事を楽しんでもらえるレストランを作ったらとても素敵！と。
+                これが、オーガニックレストランsizenのストーリーのはじまりです。
+            </p>
+        </h3>
     </div>
 </section>
 <div class="access">
@@ -56,13 +71,14 @@
         width="600" height="300" style="border: 2px solid #86CDC9; border-radius:30px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <footer>
+    <div class="footer-bg">
     <div class="footer">
-        <p>
+        <p class="footer_logo">
             <img src="images/foot_logo.png" alt="sizen-logo">
             <span class="icon">
-                <a href="https://www.instagram.com/organic_restaurant_sizen/"><img src="images/instagram.png" alt="instagram"></a>
-                <a href="https://www.facebook.com/Organic.Restaurant.sizen"><img src="images/facebook.png" alt="facebook"></a>
-                <a href="https://twitter.com/sizen_organic"><img src="images/x.png" alt="X"></a>
+                <a href="https://www.instagram.com/organic_restaurant_sizen/" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/Organic.Restaurant.sizen" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/sizen_organic" target="_blank"><img src="images/x.png" alt="X"></a>
             </span>
         </p>
         <address>
@@ -72,6 +88,12 @@
             <p>人にも自然にも優しい、宮崎のオーガニックレストラン。</p>
         </address>
     </div>
+    </div>
 </footer>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script> -->
+<!--自作のJS-->
+<!-- <script src="js/6-1-3.js"></script> -->
+</body>
 </body>
 </html>
